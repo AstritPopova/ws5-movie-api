@@ -1,13 +1,42 @@
-# WS-5 Movie API
+WS5 Movie API
 
-Yksinkertainen Express + MongoDB -leffojen REST API.
+A simple RESTful API built with Node.js, Express, and MongoDB Atlas.
+This project was created as part of the WS5 assignment to demonstrate basic backend development, database integration, and CRUD operations.
 
-## Käynnistys
+📌 Features
 
-```bash
-npm install
-npm start
-```
+Connects to MongoDB Atlas using Mongoose
 
-Oletus-MongoDB-osoite on `mongodb://127.0.0.1:27017/ws5_movies`.  
-Voit yliajaa sen asettamalla ympäristömuuttujan `MONGODB_URI` (esim. Atlas-URI).
+Provides full CRUD functionality for movie items
+
+Includes routes for:
+
+ Get all movies
+
+ Get a movie by ID
+
+ Create a new movie
+
+ Update an existing movie
+
+ Delete a movie
+
+Uses Express middleware
+
+Supports JSON requests
+
+Easy to run locally
+
+ Technologies Used
+
+Node.js
+
+Express.js
+
+MongoDB Atlas
+
+Mongoose
+
+PowerShell / curl / Invoke-RestMethod for testing
+
+Git & GitHub for version control
